@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - PinSave</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+    <nav class="py-4 px-6 bg-white border-b">
+        <a href="/" class="text-2xl font-black text-red-600">PinSave</a>
+    </nav>
+    <main class="flex-grow flex items-center justify-center p-6">
+        <div class="max-w-md w-full bg-white rounded-3xl shadow-xl p-8">
+            <h1 class="text-2xl font-black mb-6 text-red-600">Hubungi Kami</h1>
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-5">
+                <input type="email" name="email" placeholder="email@kamu.com" required class="w-full px-5 py-4 bg-gray-50 rounded-2xl outline-none focus:ring-2 focus:ring-red-400 text-sm">
+                <textarea name="message" rows="4" placeholder="Pesan kamu..." required class="w-full px-5 py-4 bg-gray-50 rounded-2xl outline-none focus:ring-2 focus:ring-red-400 text-sm resize-none"></textarea>
+                <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-black py-4 rounded-2xl transition">KIRIM</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
